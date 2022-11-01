@@ -1,5 +1,5 @@
 SELECT
-    CONCAT(name, '(', SUBSTR(occupation, 1, 1), ')')
+    CONCAT(name, '(', SUBSTRING(occupation, 1, 1), ')')
 FROM
     occupations
 ORDER BY
