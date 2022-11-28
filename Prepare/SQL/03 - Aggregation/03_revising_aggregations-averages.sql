@@ -1,1 +1,6 @@
-SELECT AVG(population) FROM city WHERE district = "California"
+SELECT
+    AVG(population)
+FROM
+    city
+WHERE
+    district = "California"
