@@ -3,7 +3,7 @@ SELECT
 FROM
     station
 WHERE
-    lat_N > 38.7780
+    lat_n > 38.7780
 ORDER BY
     lat_n
 LIMIT
